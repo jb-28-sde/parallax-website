@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <a href="#" class="logo">Logo</a>
+    <ul class="navlist">
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Products">Products</a></li>
+      <li><a href="#Contact">Contact</a></li>
+    </ul>
+  </header>
+
+  <section class="parallax-home">
+    <img src="./Home-Images/sky.png" alt="">
+    <img src="./Home-Images/moon.png" alt="" id="moon">
+    <img src="./Home-Images/water.png" alt="">
+    <img src="./Home-Images/center-city.png" alt="">
+    <img src="./Home-Images/right-city.png" alt="">
+    <img src="./Home-Images/left-city.png" alt="">
+    <img src="./Home-Images/train.png" alt="" id="train">
+    <img src="./Home-Images/rail.png" alt="">
+    <h1 id="text">Jai_SDE_2</h1>
+    <img src="./Home-Images/hill-left-1.png" alt="">
+    <img src="./Home-Images/hill-right-1.png" alt="">
+  </section>
+
+  <section class="about" id="about">
+    <div class="info-box">
+      <h2>About Us</h2>
+      <p>This website is built using HTML, CSS, and JavaScript, incorporating a parallax scrolling effect to enhance user engagement and create a visually dynamic experience.</p>
+      <a href="#" class="btn">Read more!</a>
+    </div>
+    <img src="./About-Images/waterfall.png" alt="" id="waterfall" class="about-waterfall">
+    <img src="./About-Images/desert-sky.png" alt="">
+    <img src="./About-Images/desert-moon.png" alt="" id="desert-moon">
+    <img src="./About-Images/desert-NoSky.png" alt="">
+    <img src="./About-Images/desert-rock.png" alt="">
+    <img src="./About-Images/water.png" alt="">
+    <img src="./About-Images/man.png" alt="" id="man">
+    <img src="./About-Images/grass.png" alt="">
+  </section>
+
+  <section class="products" id="products">
+    <h2 >Our Products</h2>
+    <div class="product-card">
+      <div class="card">
+        <img src="./products/Salmon.png" alt="Salmon">
+        <div class="info">
+          <div class="price-name">
+            <h3>Salmon</h3>
+            <span>$120</span>
+          </div>
+          <p>Salmon are important food fish and are intensively farmed in many parts of the world, with Norway being the world's largest producer of farmed salmon, followed by Chile.</p>
+          <a href="#" class="btn">Go Shop</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./products/Snapper.png" alt="Snapper">
+        <div class="info">
+          <div class="price-name">
+            <h3>Snapper</h3>
+            <span>$150</span>
+          </div>
+          <p>Snapper is a fish from the western Atlantic Ocean. They are game fish. They live in the Gulf of Mexico and off the coast</p>
+          <a href="#" class="btn">Go Shop</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./products/Swordfish.png" alt="Swordfish">
+        <div class="info">
+          <div class="price-name">
+            <h3>Swordfish</h3>
+            <span>$170</span>
+          </div>
+          <p>Swordfish, also known as broadbills, are large predatory fish with a long, flat bill. They are popular sport fish and lose all teeth and scales by adulthood.</p>
+          <a href="#" class="btn">Go Shop</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./products/Tuna.png" alt="Tuna">
+        <div class="info">
+          <div class="price-name">
+            <h3>Tuna</h3>
+            <span>$190</span>
+          </div>
+          <p>Tuna, sometimes called tuna fish, are several species of fish in the family Scombridae, mostly in the genus Thunnus.</p>
+          <a href="#" class="btn">Go Shop</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container">
+    <h1>Contact Us</h1>
+    <p>Have questions? Fill out the form below and we’ll get back to you soon.</p>
+    <form action="contact.php" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+  <script src="script.js">
+
+  </script>
+</body>
+
+</html>
